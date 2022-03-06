@@ -79,7 +79,7 @@ public class IpPackage{
     }
 
     
-//les attributs
+
 private int octet1;
 private int octet2;
 private int octet3;
