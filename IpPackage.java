@@ -6,10 +6,6 @@ public class IpPackage{
         this.octet3 = o3;
         this.octet4 = o4;
     }
-///////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////
-
-    // Méthode static car méthode accessible en dehors de toute instanciation
     public static IpPackage getInstance(int o1, int o2,int o3,int o4) {
         try 
         {
@@ -21,7 +17,6 @@ public class IpPackage{
         catch (Exception e)
         {
             System.out.println("Valeur impossible \n");
-            // return null;
         }
         
         System.out.println("o1 = " + o1);        
